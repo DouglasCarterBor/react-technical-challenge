@@ -1,0 +1,39 @@
+.Footer {
+    background-color: #FFF;
+    min-height: 86px;
+    width: 100%;
+    display: flex;
+    font-size: 7px;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.6s ease;
+  }
+  
+  @media (max-width: 1080px) {
+    .Footer {
+      min-height: 66px;
+    }
+    .separator,
+    .Footer p {
+      display: none;
+      transition: display 0.6s ease;
+    }
+  }
+  
+  .Footer p {
+    color: #343434;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  
+  .separator {
+    width: 1px;
+    height: 44px;
+    color: #000;
+    margin-left: 59px;
+    margin-right: 64px;
+  }

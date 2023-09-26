@@ -1,0 +1,59 @@
+body {
+  background-color: #ff0000ba;
+}
+
+
+.App {
+  background: linear-gradient(0deg, #000 -10.63%, rgba(0, 0, 0, 0.00) 85.07%), url('./assets/background.webp');
+  background-size: cover;
+  text-align: center;
+  transition: background-position 0.6s ease;
+  min-height: 100vh;
+}
+
+@media (max-width: 1080px) {
+  .App{
+    background-position: -180px 0px;
+  }
+}
+
+.main-content {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.second-content{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 380px) {
+  .App{
+    max-height: max-content;
+    width: 382px;
+    overflow-x: scroll;
+    overflow-x: auto; 
+  }
+}

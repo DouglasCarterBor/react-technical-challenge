@@ -1,0 +1,30 @@
+.PopulationRangeSlider {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  .rc-slider-handle {
+    padding-bottom: 15px;
+  }
+
+}
+
+.PopulationRangeSlider p {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

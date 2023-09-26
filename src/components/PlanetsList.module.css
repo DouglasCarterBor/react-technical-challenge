@@ -1,0 +1,46 @@
+.PlanetsList {
+    margin: 0px;
+    padding: 0px;
+    max-height: 83px;
+    margin-right: 10px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+.PlanetsList p {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 3px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+
+.unit-name-content {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 65px;
+    transition: background-color 0.3s;
+}
+
+.unit-name-content:hover {
+    background-color: #DE1212;
+    border-radius: 4px;
+}
+
+.PlanetsList::-webkit-scrollbar-track {
+    background: transparent;
+}
