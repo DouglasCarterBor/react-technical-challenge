@@ -79,7 +79,7 @@
 
 .content-search-planet input::placeholder {
     text-align: center;
-    color: #7D7D7D;
+    color: #434343;
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
@@ -218,7 +218,7 @@
     .PlanetSearch {
         margin: 0px;
         padding: 0px;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 50px;
         display: flex;
         align-items: flex-start;
@@ -228,7 +228,8 @@
         align-items: flex-start;
     }
     .PlanetSearch .main-content {
-        padding: 0;
+        padding: 0px;
+        margin: 0px;
         height: auto;
         border-radius: 10px;
         background: rgba(0, 0, 0, 0.70);
@@ -257,8 +258,8 @@
         height: 229px;
         width: 323px;
         position: absolute;
-        top: 400px;
-        left: 50px;
+        top: 300px;
+        left: 60px;
         z-index: 2;
     }
 
@@ -267,6 +268,23 @@
     }    
     .PlanetSearch .content-search-planet input {
         width: 220px;
+    }
+}
+
+@media (max-width: 500px) {
+    .PlanetSearch .content-search-planet {
+        min-height: 425px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .PlanetSearch .space-planet {
+        border-radius: 10px;
+        max-height: 193.2px;
+        background: url('../../assets/space-planet.webp');
+        background-position: 0px 0px -300px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 

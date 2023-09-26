@@ -175,11 +175,9 @@ function PlanetSearch() {
         }
     }
 
-
     return (
         <div className={style.PlanetSearch}>
             <div className={style["main-content"]}>
-
                 <div className={style["space-planet"]}></div>
                 <div className={style["content-search-planet"]}>
                     <p>Discover all the information about Planets of the Star Wars Saga</p>

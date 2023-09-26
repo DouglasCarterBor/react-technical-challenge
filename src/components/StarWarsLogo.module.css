@@ -13,4 +13,19 @@
     text-transform: uppercase;
   }
   
+  @media (max-width: 500px) {
+    .svg-logo-content svg {
+      margin: 0px;
+      padding: 0px;
+      width: 250px;
+    }
+    .svg-logo-content{
+      margin: 0px;
+      padding: 0px;
+    }
+    .StarWarsLogo p {
+      margin-bottom: 0px;
+    }
+  }
+ 
   
