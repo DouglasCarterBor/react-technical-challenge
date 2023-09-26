@@ -169,7 +169,6 @@ function PlanetSearch() {
 
     const goPlanet = ({ planet, index }, e) => {
         e.preventDefault();
-        console.log("Lista de planetas antes de navegar:", planets);
         if (planet !== undefined && planet !== null && index !== undefined && index !== null) {
             navigate('/planet', { state: { planet, index } });
         }
