@@ -146,7 +146,7 @@ function PlanetSearch() {
     useEffect(() => {
         async function fetchPlanets() {
             try {
-                const response = await axios.get('http://swapi.dev/api/planets/');
+                const response = await axios.get('https://swapi.dev/api/planets/');
                 setPlanets(response.data.results);
 
                 const populations = response.data.results.map((planet) =>
